@@ -2,12 +2,13 @@
 <<<<<<< HEAD
 <html lang="en">
 =======
-<html lang="en-US">
+<html lang="en">
 >>>>>>> 9fcd0f4688c324c9feaee0379a24201301bd01d8
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -28,7 +29,7 @@
                 <li>The 'h1, h2, h3, h4, h5, and h6' elements represent the level of heading a given text block represents.</li>
                 <li>The 'p' element represents a paragraph or block of text. </li> 
                 <li>The 'ul, ol, and li' elements represent unordered lists, ordered lists, and list items.</li>    
-                <li>The 'img' element contains information about images that are displayed on the webpage. The <img> element can contain various attributes; the src attribute is the most important because it defines the location of the image.</li>    
+                <li>The 'img' element contains information about images that are displayed on the webpage. The img element can contain various attributes; the src attribute is the most important because it defines the location of the image.</li>    
                 <li>The 'br' element creates a line of empty space, or a line break, between two blocks of content.</li>
                 <li>The hyperlink, the 'a' element (which stands for anchor) creates links to the same webpage or other webpages. The href attribute points to the URL for the link.</li>
                 <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
@@ -38,7 +39,19 @@
         <section class="card" id="css-section">
             <h2>CSS</h2>
             <ul>
-              <li>Enter your CSS notes here</li>
+              <li>A margin indicates how much space we want around the outside of an element.</li>
+              <li>A padding indicates how much space we want around the content inside an element.</li>
+              <li>A link element creates the connection to the external file.</li>
+              <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+              <li>The href attribute specifies the location (URL) of the external resource. The href attribute is using a relative path.</li>
+              <li>The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</li>
+              <li>When a developer wants to style an element directly in the HTML file, they use inline CSS. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only</li>
+              <li>An internal style sheet contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code</li>
+              <li>The most common way to style a webpage is by using an external CSS style sheet. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+              <li>When using an external style sheet, we link the file using a <link> element placed in the HTML's head.</head></li>
+              <Li>a selector defines the element or attributes to which the rules, or declarations, will apply.</Li>
+              <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
+              <li>The img selector assigns property values to any image element in the markup. The display property is assigned with the block value, which assigns each image to start on a new line.</li>
             </ul>
         </section>
      
@@ -51,7 +64,9 @@
                 <li>git checkout (name-of-your-branch): used to switch between branches</li>
                 <li>git add (file): When there are file names that are red - this means that they're unstaged files. The unstaged files won't be included in your commits, to do so we need to use git add</li>
                 <li>git add -A: we use to add all files</li>
-            </ul>
+                <li>To add, commit, and push up the code in the feature branch; Make sure your on correct branch, checking from your Command Line. Add the changed files in the working directory to the staging area of Git by using the 'git add -A'. Now changes have been made. Commit to repository by git commit -m "Put a description of what changes were made". Check your current branch is up to date before the pull request. Enter: git pull origin main. Finally push up all of the changes: git push origin feature/"branch".  </li>
+            
+              </ul>
         </section>
      
         <section class="card" id="javascript-section">
